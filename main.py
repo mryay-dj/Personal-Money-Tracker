@@ -1,6 +1,8 @@
 income = []
 expenses = []
 
+total = income + expenses
+
 while True:
     menu = int(input(
     "Welcome to Your Personal Finance Tracker \n" 
@@ -55,14 +57,3 @@ while True:
 
         print("Goodbye.")
         break
-
-
-
-    
-    
-
-
-
-
-
-
